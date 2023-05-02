@@ -1,0 +1,33 @@
+body {
+    background-color: aquamarine;
+}
+
+img {
+    width:100%
+}
+div.box {
+    width:500px;
+    margin-left: auto;
+    margin-right:400px;
+
+}
+div.container {
+    margin-top:50px;
+    margin-bottom:50px;
+    display:flex;
+    flex-wrap:wrap;
+}
+div.item25 {
+    width:75%;
+    font-size:50px;
+    background-color: aliceblue;
+    outline:1px solid coral;
+
+}
+div.item75 {
+    width:25%;
+    font-size:50px;
+    background-color: aliceblue;
+    outline:1px solid coral;
+
+}
