@@ -1,0 +1,92 @@
+body {
+background-color:rgb(190, 216, 250);
+}
+
+h1 {
+    font-size: 40px;
+    color:brown;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+div.details {
+    font-size: large;
+    color: aliceblue;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+div.author {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    text-align:center;
+    stroke-width: 200px;
+    font-family:arial;
+    font-weight: 200;
+    color:rgb(35, 68, 144)
+}
+div.title {
+    margin-top: 150px;
+    margin-bottom: 100px;
+    text-align:center;
+    stroke-width: 200px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    color:rgb(35, 68, 144)
+}
+
+div.introduction {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 25;
+    font-weight: 500;
+    color:rgb(43, 71, 137)
+
+    text-align: center;
+    
+
+
+}
+div.samanthagani {
+    font-size: large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-weight:bold;
+}
+div.text{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    margin-bottom: 1cm;
+    text-align: center;
+
+    color:rgb(35, 68, 144)
+}
+div.text2 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    margin-bottom: 1cm;
+    text-align: center;
+
+    color:rgb(35, 68, 144)
+
+}
+div.textthree {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    margin-bottom: 1cm;
+    text-align: center;
+    color:rgb(35, 68, 144)
+}
+div.text4 {
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    margin-bottom: 1cm;
+    text-align: center;
+    color:rgb(35, 68, 144)
+}
+div.line {
+    font-size: larger;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    color:blueviolet
+}
