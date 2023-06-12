@@ -1,33 +1,540 @@
 body {
-    background-color: aquamarine;
+    background:radial-gradient(circle,rgb(241, 143, 163), rgb(137, 206, 249));
+    font-size:36px;
+    overflow-x: scroll;
+    
 }
 
-img {
-    width:100%
+@font-face {
+    font-family: 'RecifeDisplay';
+    src: url('recifedisplay-light-webfont.woff2');
+    src: local('recifedisplay-light-webfont'), local('recifedisplay-light-webfont'),
+      url("recifedisplay-light-webfont.woff") format("woff"),
+      url("recifedisplay.otf") format("opentype"),
+      url("recifedisplay") format("svg");
 }
-div.box {
-    width:500px;
-    margin-left: auto;
-    margin-right:400px;
+
+
+#sparklebutton {
+
+  width: 5880px;
+  height: 4800px;
+  Display:inline-block;
+  cursor: pointer;
+
+  border: none;
+  background-image: url('sparkle3.png');
+
+  padding: 0;
+}
+
+#sparklebutton {
+  filter: blur(50px);
+  transition:0.5s;
+}
+
+
+#sparklebutton:hover {
+  filter: blur(0PX);
+  
+}
+
+
+img:hover {
+
+  cursor: pointer;
+  
+  }
+
+
+
+  
+a{ 
+  width:500px;
+  height:500px;
+}
+div.button {
+
+    color:white;
+    border:none;
+    width:6000px;
+    height:6000px;
+    text-align:center;
+    margin-left:50%;
+    margin-top:50%;
+    font-size:6000px;
+    position:absolute;
+    margin: 4px 2px;
+    cursor:pointer;
 
 }
-div.container {
-    margin-top:50px;
-    margin-bottom:50px;
+
+
+
+  
+div.thescentofyou{ 
+    display:flex;
+    color:white;
+    margin-left:500px;
+    margin-right:200px;
+    margin-top:30px;
+    margin-bottom:30px;
+    text-align:center;
+    font-weight:bold;
+
+    } 
+    
+  
+    
+    div.the {
+
+      font-family:'RecifeDisplay';
+      font-style:oblique;
+        margin-left: 70px;
+      font-size:80px;
+      text-align:center;
+      margin-right: 6px;
+
+    }
+    div.scent {
+
+    font-family:'RecifeDisplay';
+    font-style:oblique;
+      font-size:80px;
+      color:rgb(210, 72, 82);
+      text-align:center;
+    }
+    div.of {
+      font-style:oblique;
+    font-family:'RecifeDisplay';
+      font-size:80px;
+      text-align:center;
+    }
+    div.you {
+      font-style:oblique;
+    font-family:'RecifeDisplay';
+      font-size:80px;
+      text-align:center;
+      margin-left:10px;
+    
+    }
+    div.the:hover {
+      color: rgb(176, 31, 55);
+      font-style:italic;
+    }
+    div.scent:hover {
+      color: rgb(176, 31, 55);
+      font-style:italic;
+
+    }
+    
+    div.of:hover {
+      color: rgb(176, 31, 55);
+      font-style:italic;
+    }
+    div.you:hover {
+      color:rgb(176, 31, 55);
+      font-style:italic;
+    }
+
+    div.aboutrow{
+        display:flex;
+        flex-wrap: wrap;
+
+        outline: 2px solid rgb(237, 170, 170);
+        background-color:rgb(237, 170, 170);
+
+
+    }
+    div.about {
+
+        color:rgb(255, 255, 255);
+        width: 900px;
+        height: 100px;
+        font-family:'recifedisplay';
+        font-size:70px;
+        width:10%;
+        margin-left:300px;
+        
+
+    }
+    div.menu {
+
+        color:white;
+        font-family:'recifedisplay';
+        font-size:70px;
+        width:1O%;
+        text-align: center;
+        margin-right:200px;
+        margin-left:auto;
+
+
+
+
+
+    }
+    div.generate {
+        color:white;
+        font-family:'recifedisplay' ;
+        font-size:70px;
+        text-align:center;
+
+    background:radial-gradient(circle,rgb(91, 202, 250), rgb(252, 236, 236));
+      
+      background-color:white;
+
+        cursor:pointer;
+
+    }
+    div.generate:hover { 
+
+      color:rgb(230, 95, 80);
+      font-family:'recifedisplay';
+      font-style:italic;
+
+    
+    }
+
+    div.trigger1 {
+
+      display:inline-block;
+      padding:10px;
+      font-size:60px;
+      cursor:pointer;
+    }
+    
+    div.welcome {
+      margin-bottom:500px;
+      margin-left:100px;
+      margin-right:500px;
+    width:400px;
+    height:400px;
+    position:relative;
+    top:40px;
+    left:400px;
+    cursor: pointer;
+    opacity: 0;
+  }
+  
+  div.welcome.show {
+      opacity: 1;
+    }
+div.about:hover {
+   
+
+    width: 400px;
+    height:150px;
+    border-radius:50%;
+    text-align:center;
+    background:radial-gradient(circle,rgb(230, 138, 138), white);
+    font-size:100px;
+
+}
+div.menu:hover {
+    outline:2px solid color:rgb(255, 83, 83);
+    text-align:center;
+    width:700px;
+    height:150px;
+    border-radius:60%;
+    background:radial-gradient(circle,rgb(230, 138, 138), white);
+    font-size:100px;
+
+       
+}
+   /*
+    div.generate:hover {
+
+        width:500px;
+        height:200px;
+        border-radius:50%;
+        background:radial-gradient(circle,rgb(230, 138, 138), white);
+        font-size:100px;
+        margin-left:600px;
+        margin-bottom:50px;
+
+
+    } */
+
+    
+
+    
+
+    div.row {
+    
     display:flex;
     flex-wrap:wrap;
-}
-div.item25 {
-    width:75%;
-    font-size:50px;
-    background-color: aliceblue;
-    outline:1px solid coral;
+    
+    }
+    div.col{
+        outline: 3px solid rgb(157, 25, 25);
+        margin-top: 4px;
+        width:33.333%;
+        font-size: 50px;
+        font-family:'recifedisplay';
+    }
+    
+    
+    div.textred {
+        color:blue;
+    }
+    div.textwhite {
+        color: white;
+    }
+    colwidth66 {
+        font-size:46px;
+        margin:0;
+    }
+    div.banner1{
+        font-family:'RecifeDisplay';
+        font-size:40px;
+        background: radial-gradient(circle, rgb(244, 199, 206), rgb(152, 229, 239));
+        color:black;
 
-}
-div.item75 {
-    width:25%;
-    font-size:50px;
-    background-color: aliceblue;
-    outline:1px solid coral;
+        
+        
+    }
+    div.banner2 {
+        font-size:40px;
+        background: radial-gradient(circle, rgb(246, 246, 244), rgb(248, 113, 113));
+        color: white;
+        font-family:'recifedisplay';
+      }
+    
+      
+      
+    div.scrollingboxes {
+        display:flex;
 
+
+    }
+
+
+
+    div.scrollbox1 {
+        font-family:'recifedisplay';
+        width: 900px;
+        height: 300px;
+        font-size: 40px;
+        background: radial-gradient(circle, rgb(239, 239, 216), rgb(121, 234, 226));
+        overflow: scroll;
+      }
+
+    div.scrollbox2 {
+
+      font-family:'recifedisplay';
+        width: 900px;
+        height: 300px;
+        font-size: 40px;
+        color:rgb(85, 20, 20);
+        background: radial-gradient(circle, rgb(246, 246, 244), rgb(248, 113, 113));
+        overflow: scroll;
+    }
+    div.scrollbox3 {
+      font-family:'recifedisplay';
+        width: 900px;
+        height: 300px;
+        font-size: 40px;
+        color:rgb(85, 20, 20);
+        background: radial-gradient(circle, rgb(246, 246, 244), rgb(156, 177, 235));
+        overflow: scroll;
+    }
+
+
+
+    div.imagebox {
+      width: 400px;
+    
+      height: 400px;
+      font-size: 40px;
+      background-color: red;
+      overflow: scroll;
+    }
+    
+    div.imagebox1 {
+       
+      Width:400px;
+      height:600px;
+      background-color:white;
+  
+
+  }
+  div.imagebox2 {
+      width:400px;
+      height:400px;
+      background-color:rgb(202, 47, 47); 
+  }
+  div.imagebox3 {
+
+      Width:400px;
+      height:400px;
+      background-color:white;
+  }
+  div.imagebox4 {
+
+      width:400px;
+      height:400px;
+      background-color:rgb(202, 47, 47); 
+  }
+    
+  /*  div.blur img {
+        width:600px;
+        height:600px;
+        filter: blur(15px);
+
+      } 
+      
+      div.blur img:hover {
+        filter: blur(0px);
+        transition: 2s;
+      }
+      
+*/
+
+    div.boxes {
+
+        font-size: 40px;
+        overflow: scroll;
+
+    }
+    
+
+    div.gradient{
+        height: 400px;
+        width: 400px;
+        border-radius:50%;
+        background: radial-gradient(circle, white, rgb(215, 93, 93));
+        margin-bottom: 20px;
+    }
+
+    div.hero {
+        width:500px;
+        height:500px;
+        background-image:url("https://www.workingmanagement.com.au/site/wp-content/uploads/2022/03/Jonathan-Lim-headshot-scaled.jpg");
+      }
+      
+      div.hero:hover {
+        background-image:url("https://placehold.co/600x400/FF0000/000");
+      }
+
+   
+      
+    
+
+    div.trigger2 {
+        display:inline-block;
+        padding:10px;
+        cursor:pointer;
+    }
+    
+div.goodbye{
+    opacity:0;
 }
+div.goodbye.show {
+    opacity: 1;
+  }
+
+  img {
+    width:100%;
+  }
+  
+  div.left {
+    font-size:36px;
+    width:30%;
+    /* vh = viewport height or screen size   */
+    height:100vh;
+    overflow:scroll;
+    background-color: white;  
+    padding:20px;
+    box-shadow:10px 10px 10px grey;
+    
+    position:fixed;
+    left:0;
+    right:0;
+    z-index: 10;
+    transition:1s; 
+     
+  }
+  
+  div.left:hover {
+    z-index:20;
+    width:90%;
+    transition:1s;
+  }
+  
+  div.right {
+    font-size:36px;
+    width:70%;
+    height:100vh;
+    overflow:scroll;
+    padding:20px;  
+    box-shadow:-10px -10px 10px grey;
+    background-color: rgb(244, 195, 195);
+  /*  pins the right page to the top right, the z index is the stacking order  */
+    position:fixed;
+    top:70;
+    right:0;
+    z-index: 10;
+  }
+
+
+
+  div.ingridientsleft {
+    font-size:36px;
+    width:30%;
+    /* vh = viewport height or screen size   */
+    height:100vh;
+    overflow:scroll;
+    background-color: white;  
+    padding:20px;
+    box-shadow:10px 10px 10px grey;
+    
+    position:fixed;
+    left:0;
+    right:0;
+    z-index: 10;
+    transition:1s;  
+  }
+  div.je {
+    font: size 50px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top:500px;
+  }
+  
+  div.ingridientsleft:hover {
+    z-index:20;
+    width:90%;
+    transition:1s;
+  }
+  
+  div.ignridientsright {
+    font-size:36px;
+    width:70%;
+    height:100vh;
+    overflow:scroll;
+    padding:20px;  
+    box-shadow:-10px -10px 10px grey;
+    background-color: rgb(244, 195, 195);
+  /*  pins the right page to the top right, the z index is the stacking order  */
+    position:fixed;
+    top:70;
+    right:0;
+    z-index: 10;
+    
+  }
+  div.anyeong{
+    margin-top:500px;
+    margin-left:100px;
+    margin-right:500px;
+  width:1000px;
+  height:1000px;
+  position:fixed;
+  top:40px;
+  left:400px;
+  cursor: pointer;
+  opacity: 0;
+  }
+  div.anyeong.show {
+    opacity: 1;
+  }
+
+   
