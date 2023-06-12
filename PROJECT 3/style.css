@@ -159,7 +159,7 @@ div.thescentofyou{
 
     }
     div.menu {
-
+    
         color:white;
         font-family:'recifedisplay';
         font-size:70px;
@@ -293,6 +293,7 @@ div.menu:hover {
         
         
     }
+
     div.banner2 {
         font-size:40px;
         background: radial-gradient(circle, rgb(246, 246, 244), rgb(248, 113, 113));
@@ -312,6 +313,7 @@ div.menu:hover {
 
     div.scrollbox1 {
         font-family:'recifedisplay';
+        color:rgb(205, 61, 61);
         width: 900px;
         height: 300px;
         font-size: 40px;
@@ -321,11 +323,12 @@ div.menu:hover {
 
     div.scrollbox2 {
 
+      
       font-family:'recifedisplay';
         width: 900px;
         height: 300px;
         font-size: 40px;
-        color:rgb(85, 20, 20);
+        color:rgb(163, 26, 26);
         background: radial-gradient(circle, rgb(246, 246, 244), rgb(248, 113, 113));
         overflow: scroll;
     }
@@ -461,7 +464,8 @@ div.goodbye.show {
     transition:1s;
   }
   
-  div.right {
+  div.right {]
+    font-family:'recifedisplay';
     font-size:36px;
     width:70%;
     height:100vh;
@@ -494,11 +498,7 @@ div.goodbye.show {
     z-index: 10;
     transition:1s;  
   }
-  div.je {
-    font: size 50px;
-    font-family:Arial, Helvetica, sans-serif;
-    margin-top:500px;
-  }
+ 
   
   div.ingridientsleft:hover {
     z-index:20;
@@ -506,7 +506,9 @@ div.goodbye.show {
     transition:1s;
   }
   
-  div.ignridientsright {
+  div.ingridientsright {
+    color:white;
+    font-family:'recifedisplay';
     font-size:36px;
     width:70%;
     height:100vh;
@@ -522,6 +524,8 @@ div.goodbye.show {
     
   }
   div.anyeong{
+    font-family:'recifedisplay';
+    color:white;
     margin-top:500px;
     margin-left:100px;
     margin-right:500px;
